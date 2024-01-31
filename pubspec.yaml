@@ -1,0 +1,26 @@
+name: aplication2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.15.0
+  firebase_auth: ^4.17.0
+  firebase_core: ^2.25.0
+  firebase_ui_auth: ^1.12.1
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/
